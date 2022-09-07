@@ -39,6 +39,10 @@ section#login h1 {
     text-shadow: 2px 5px 8px #bb3c4d;
 }
 
+section#login h1:hover {
+    color: white;
+}
+
 section#login form {
     text-align: center;
 }
@@ -83,6 +87,11 @@ input[type="submit"] {
     cursor: pointer;
 }
 
+input[type="submit"]#enviar:hover {
+    color: white;
+    text-shadow: 2px 2px 2px #BB3C4D;
+}
+
 section#login p {
     font-size: 0.8em;
     text-shadow: 2px 2px 2px black;
@@ -96,6 +105,7 @@ section#login a {
 
 section#login a:hover {
     text-shadow: 2px 2px 2px #BB3C4D;
+    color: white;
 }
 
 footer {
@@ -115,5 +125,6 @@ footer a {
 }
 
 footer a:hover {
-    text-shadow: 2px 2px 2px #BB3C4D
+    text-shadow: 2px 2px 2px #BB3C4D;
+    color: white;
 }
