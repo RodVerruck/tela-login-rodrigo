@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+}
+
+main#imagem {
+    background-image: url(../imagens/pexels-oladimeji-ajegbile-3314294\ \(1\).jpg);
+    background-size: cover;
+    background-position: center top;
+}
+
+section#login {
+    display: block;
+    margin: auto;
+    position: absolute;
+
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffffe1;
+}
+
+section#login h1 {
+    padding: 20px;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 2px 5px 8px #bb3c4d;
+}
+
+section#login form {
+    text-align: center;
+}
+
+section#login input {
+    margin: 8px;
+    padding: 5px;
+    color: #ffffff8c;
+    background-color: #bb3c4dbd;
+    box-shadow: 5px 5px 2px #BB3C4D;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    outline: none;
+}
+
+section#login label {
+    text-shadow: 2px 2px 2px #BB3C4D;
+}
+
+input::placeholder {
+    color: #ffffff8c;
+}
+
+input[type="text"]#iuser:focus, input[type="text"]#iuser:hover {
+    background-color: #000000b4;
+    color: #bb3c4d;
+    font-weight: bold;
+    box-shadow: 5px 5px 2px black;
+    transition: ease-out 0.3s;
+}
+
+input[type="password"]#isenha:focus, input[type="password"]#isenha:hover {
+    background-color: #000000b4;
+    color: #bb3c4d;
+    font-weight: bold;
+    box-shadow: 5px 5px 2px black;
+    transition: ease-out 0.3s;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}
+
+section#login p {
+    font-size: 0.8em;
+    text-shadow: 2px 2px 2px black;
+}
+
+section#login a {
+    text-decoration: none;
+    color: #ffffffe1;
+    font-weight: 600;
+}
+
+section#login a:hover {
+    text-shadow: 2px 2px 2px #BB3C4D;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 1%;
+    color: #ffffffe1;
+    font-size: 0.8em;
+    text-shadow: 2px 2px 2px black;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffffe1;
+    font-weight: 600;
+}
+
+footer a:hover {
+    text-shadow: 2px 2px 2px #BB3C4D
+}
